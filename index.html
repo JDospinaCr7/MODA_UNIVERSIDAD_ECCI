@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evento de Moda ECCI</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <style>
+
+        .galeria-img { width: 100%; height: 250px; object-fit: cover; }
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+
+
+<nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark shadow-sm">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="60"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+
+            <ul class="navbar-nav ms-auto align-items-center">
+
+                <li class="nav-item"><a class="nav-link" href="#inicio" data-es="Inicio" data-en="Home">Inicio</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#experiencia" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#galeria" data-es="Galería" data-en="Gallery">Galería</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="#conclusion" data-es="Conclusión" data-en="Conclusion">Conclusión</a></li>
+
+                <li class="nav-item ms-lg-3">
+
+                    <select class="form-select form-select-sm bg-dark text-white border-0" id="langSelector" onchange="cambiarIdioma()">
+
+                        <option value="es">ES</option>
+
+                        <option value="en">EN</option>
+
+                    </select>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<header id="inicio" class="container py-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-lg-6">
+
+            <h3 class="text-primary" data-es="MI EXPERIENCIA EN EL" data-en="MY EXPERIENCE AT THE">MI EXPERIENCIA EN EL</h3>
+
+            <h1 class="display-2 fw-bold" data-es="EVENTO<br>DE MODA" data-en="FASHION<br>EVENT">EVENTO<br>DE MODA</h1>
+
+            <h2 class="text-secondary" data-es="UNIVERSIDAD ECCI" data-en="ECCI UNIVERSITY">UNIVERSIDAD ECCI</h2>
+
+            <p class="lead my-4" data-es="Una experiencia que reunió lo mejor del talento, la creatividad y el estilo de nuestra gente. ¡Fue una movida increíble!" data-en="An experience that brought together the best of talent, creativity, and our people's style. It was an incredible move!">Una experiencia que reunió lo mejor del talento, la creatividad y el estilo de nuestra gente. ¡Fue una movida increíble!</p>
+
+            <div class="d-flex gap-3">
+
+                <a href="#experiencia" class="btn btn-dark btn-lg" data-es="CONOCE MI EXPERIENCIA" data-en="KNOW MY EXPERIENCE">CONOCE MI EXPERIENCIA</a>
+
+                <a href="teoria-color.html" class="btn btn-outline-primary btn-lg" data-es="TEORÍA DEL COLOR" data-en="COLOR THEORY">TEORÍA DEL COLOR</a>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 text-center"><img src="img/portada.jpg" class="img-fluid rounded-4 shadow" alt="Evento"></div>
+
+    </div>
+
+</header>
+
+
+
+<section id="experiencia" class="container py-5">
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+
+            <div class="card h-100 p-4 border-0 shadow-sm">
+
+                <h2 data-es="¿DE QUÉ TRATÓ EL EVENTO?" data-en="WHAT WAS THE EVENT ABOUT?">¿DE QUÉ TRATÓ EL EVENTO?</h2>
+
+                <p data-es="El Evento de Moda de la ECCI fue una explosión de talento. No es solo ver ropa pasar; es toda una movida donde los de diseño se la juegan toda." data-en="The ECCI Fashion Event was an explosion of talent. It is not just watching clothes go by; it is a whole scene where design students give it their all.">El Evento de Moda de la ECCI fue una explosión de talento. No es solo ver ropa pasar; es toda una movida donde los de diseño se la juegan toda.</p>
+
+                <p data-es="Lo que más me llamó la atención fue ver cómo cada quien agarra conceptos re locos o temas sociales súper actuales y los convierte en arte." data-en="What caught my attention the most was seeing how everyone takes crazy concepts or current social themes and turns them into art.">Lo que más me llamó la atención fue ver cómo cada quien agarra conceptos re locos o temas sociales súper actuales y los convierte en arte.</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <div class="card h-100 p-4 border-0 shadow-sm bg-light">
+
+                <h2 data-es="SOBRE MI EXPERIENCIA" data-en="ABOUT MY EXPERIENCE">SOBRE MI EXPERIENCIA</h2>
+
+                <p data-es="Quedé sorprendido. Estar ahí metido, viendo el detrás de cámaras y el proceso creativo de cada colección, te cambia la perspectiva." data-en="I was surprised. Being there, seeing behind the scenes and the creative process of each collection, changes your perspective.">Quedé sorprendido. Estar ahí metido, viendo el detrás de cámaras y el proceso creativo de cada colección, te cambia la perspectiva.</p>
+
+                <p data-es="Desde cómo organizaron todo hasta el ambiente en la pasarela, fue una experiencia que no olvido." data-en="From how they organized everything to the atmosphere on the runway, it was an experience I won't forget.">Desde cómo organizaron todo hasta el ambiente en la pasarela, fue una experiencia que no olvido.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section id="galeria" class="container py-5">
+
+    <h2 class="text-center mb-4" data-es="GALERÍA DEL EVENTO" data-en="EVENT GALLERY">GALERÍA DEL EVENTO</h2>
+
+    <div class="row g-3">
+
+        <div class="col-6 col-md-4"><img src="img/galeria1.jpg" class="img-fluid rounded shadow-sm galeria-img"></div>
+
+        <div class="col-6 col-md-4"><img src="img/galeria2.jpg" class="img-fluid rounded shadow-sm galeria-img"></div>
+
+        <div class="col-6 col-md-4"><img src="img/galeria3.jpg" class="img-fluid rounded shadow-sm galeria-img"></div>
+
+        <div class="col-6 col-md-4"><img src="img/galeria4.jpg" class="img-fluid rounded shadow-sm galeria-img"></div>
+
+        <div class="col-6 col-md-4"><img src="img/galeria5.jpg" class="img-fluid rounded shadow-sm galeria-img"></div>
+
+    </div>
+
+</section>
+
+
+
+<section id="conclusion" class="container py-5">
+
+    <div class="bg-dark text-white p-5 rounded-5">
+
+        <h2 class="text-warning" data-es="CONCLUSIÓN" data-en="CONCLUSION">CONCLUSIÓN</h2>
+
+        <p data-es="Al final, el Evento de Moda ECCI fue ver cómo la gente de la U le mete toda la disciplina y pasión para transformar una idea en arte puro." data-en="In the end, the ECCI Fashion Event was seeing how the university students put all their discipline and passion into transforming an idea into pure art.">Al final, el Evento de Moda ECCI fue ver cómo la gente de la U le mete toda la disciplina y pasión para transformar una idea en arte puro.</p>
+
+        <p data-es="Me voy con la cabeza llena de ideas y con muchas ganas de seguir metiéndole fichas a mis propios proyectos; esto me dio la motivación para no quedarme atrás en mi estudio." data-en="I leave with my head full of ideas and eager to keep putting effort into my own projects; this gave me the motivation not to fall behind in my studies.">Me voy con la cabeza llena de ideas y con muchas ganas de seguir metiéndole fichas a mis propios proyectos; esto me dio la motivación para no quedarme atrás en mi estudio.</p>
+
+    </div>
+
+</section>
+
+
+
+<footer class="py-4 text-center text-muted">
+
+    <p>&copy; 2026 EVENTO DE MODA ECCI - Bogotá, Colombia</p>
+
+</footer>
+
+
+
+<script>
+
+    function cambiarIdioma() {
+
+        const lang = document.getElementById('langSelector').value;
+
+        document.querySelectorAll('[data-es]').forEach(el => {
+
+            el.innerHTML = el.getAttribute(lang === 'en' ? 'data-en' : 'data-es');
+
+        });
+
+    }
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html> 
+
